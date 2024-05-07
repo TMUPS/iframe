@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/d259002089.js" crossorigin="anonymous"></script>
+	<style type="text/css">
+	.flex_intro {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+
+.flex_intro .intro_right {
+	flex: 0 0 10%;
+}
+
+
+@media only screen and (max-width: 700px) {
+	.flex_intro .intro_right {
+		flex: 0 1 100%;
+		max-width: 100%;
+		margin-bottom: 1em;
+	}
+}
+
+.flex_intro .intro_right ul.quick_link_box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.quick_link_box li {
+	flex: 0 0 33%;
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    vertical-align: middle; 
+    height: 5.9em;
+	margin-bottom: 0.666%;
+}
+
+.quick_link_box li i {
+    position: absolute;
+    top: .35em;
+    left: 50%;
+    font-size: 250%;
+    transform: translate(-50%, 0) scale(1) ;
+
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    -o-transition: all .5s linear;
+}
+
+.quick_link_box li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 1.2;
+    color: #FFF;
+    font-weight: 500;
+}
+
+.quick_link_box li span.title {
+    position: absolute;
+    bottom: 0;
+    padding: .3em;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.quick_link_box li.small_font span.title {
+    font-size: 1.15rem;
+}
+
+.quick_link_box li.small_font span.title {}
+
+.quick_link_box li:nth-child(1) {background: #ea003a;}
+
+.quick_link_box li:nth-child(2) {background: #8465B3;}
+
+.quick_link_box li:nth-child(3) {background: #EE5E60;}
+
+.quick_link_box li:nth-child(4) {background: #AED774;}
+
+.quick_link_box li:nth-child(5) {background: #FDC147;}
+
+.quick_link_box li:nth-child(6) {background: #13814C;}
+
+.quick_link_box li:nth-child(7) {background: #2BCEC2;}
+
+.quick_link_box li:nth-child(8) {background: #06477A;}
+
+.quick_link_box li:nth-child(9) {background: #AC3064;}
+
+.quick_link_box li:nth-child(10) {background: #32485C;}
+
+.quick_link_box li:nth-child(11) {background: #1F7BBD;}
+
+.quick_link_box li:nth-child(12) {background-color: #a85c17;}
+
+	</style>
+</head>
+<body>
+	<ul class="quick_link_box">
+		<li><a href="http://www.tmups.tp.edu.tw/classweb/"><i class="fas fa-desktop" aria-hidden="true" ></i><span class="title">班級網頁</span></a></li>
+		<li><a href="https://sites.google.com/tmups.tp.edu.tw/safeschool"><i class="fas fa-traffic-light" aria-hidden="true" ></i><span class="title">交通安全學習網</span></a></li>
+		<li><a href="https://sites.google.com/tmups.tp.edu.tw/112new/"><i class="fas fa-child" aria-hidden="true" ></i><span class="title">小一新生專區</span></a></li>
+		<li><a href="http://www.tmups.tp.edu.tw/category/office/div_05/section_403-div_05/d052/"><i class="fas fa-wheelchair" aria-hidden="true" ></i><span class="title">無障礙環境專區</span></a></li>
+		<li><a href="http://www.tmups.tp.edu.tw/category/office/div_06/d071/"><i class="fas fa-search-dollar" aria-hidden="true" ></i><span class="title">預決算會計月報</span></a></li>
+		<li><a href="http://www.tmups.tp.edu.tw/category/office/div_05/section_401-div_05/d051/"><i class="fas fa-venus-mars" aria-hidden="true" ></i><span class="title">性別平等教育</span></a></li>
+		<li><a href="http://www.tmups.tp.edu.tw/office/div_02/總體課程計畫/"><i class="fas fa-solar-panel" aria-hidden="true" ></i><span class="title">總體課程計畫</span></a></li>
+		<li><a href="http://www.tmups.tp.edu.tw/category/office/div_03/section_303/environment_list/"><i class="fas fa-user-md" aria-hidden="true" ></i><span class="title">防疫暨環境教育</span></a></li>
+		<li><a href="http://www.tmups.tp.edu.tw/topic001/優質學校參選申請書/"><i class="fas fa-school" aria-hidden="true" ></i><span class="title">優質學校</span></a></li>
+		<li><a href="http://www.tmups.tp.edu.tw/category/office/div_03/section_301/dpe/"><i class="fas fa-fire-extinguisher" aria-hidden="true" ></i><span class="title">防災教育宣導</span></a></li>
+		<li><a href="http://www.tmups.tp.edu.tw/category/office/div_03/section_303/lunch_list/"><i class="fas fas fa-utensils" aria-hidden="true" ></i><span class="title">營養午餐專區</span></a></li>
+		<li><a href="http://www.tmups.tp.edu.tw/category/office/div_03/section_301/bully/"><i class="far fa-hand-paper" aria-hidden="true" ></i><span class="title">防制校園霸凌</span></a></li>
+
+	</ul>
+</body>
+</html>
